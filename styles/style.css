@@ -1,11 +1,3 @@
-.description * {
-  border: 1px solid violet;
-}
-
-.description {
-  border: 1px solid blue;
-}
-
 /* обнуляю стили браузера для заголовков, параграфов, списков */
 h1, h2, h3, h4, h5, h6, p, ul, li {
   margin: 0;
@@ -34,7 +26,6 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   justify-content: center;
   position: relative;
   background-color: #f2f2f2;
-  margin-bottom: 100px;
 }
 
 .logo {
@@ -108,27 +99,49 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 }
 
 .description {
-
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
 }
 
 .two-columns {
-
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .two-columns__brief {
-
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  color: #2f80ed;
+  font-weight: 400;
 }
 
 .two-columns__main-text {
-
+  width: 80%;
+  min-width: 784px
 }
 
 .two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  color: #000000;
+  margin-top: 30px;
+  font-weight: 400;
+}
 
+.two-columns__paragraph:first-of-type {
+  margin-top: 0;
 }
 
 .two-columns__span-accent {
-  
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
 }
 
 /* и элемента с модификатором вида ключ-значение */
