@@ -71,7 +71,8 @@ header, footer, content {
 }
 
 .header__link {
-
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
