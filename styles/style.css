@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 .description {
   display: flex;
   justify-content: center;
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
 
 .two-columns {
@@ -148,5 +148,5 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;
+  margin-top: 80px;т
 }
