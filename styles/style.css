@@ -245,5 +245,6 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   bottom: 90px;
   background-image: url("../images/kaufman-triangle.svg");
   width: 877px;
-  height: 877px;  
+  height: 877px;
+  background-size: cover;  
 }
