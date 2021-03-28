@@ -1,8 +1,3 @@
-/* обнуляю стили браузера для заголовков, параграфов, списков */
-h1, h2, h3, h4, h5, h6, p, ul, li {
-  margin: 0;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -67,6 +62,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  margin: 0;
 }
 
 .header__link {
@@ -118,6 +114,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   font-style: normal;
   color: #2f80ed;
   font-weight: 400;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -129,7 +126,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
-  margin-top: 30px;
+  margin: 30px 0 0;
   font-weight: 400;
 }
 
@@ -157,12 +154,12 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   color: #000;
 }
 
 .section-title_theme_dark {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   color: white;
   z-index: 1;
 }
@@ -174,6 +171,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   font-size: 24px;
   font-weight: 400;
   color: #000;
+  margin: 0;
 }
 
 .section-subtitle_theme_dark {
@@ -217,7 +215,8 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   padding-bottom: 20px;
   line-height: 1.2;
   font-size: 18px;
-  font-weight: 400; 
+  font-weight: 400;
+  margin: 0; 
 }
 
 .table__text:last-child {
@@ -266,10 +265,11 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   font-size: 120px;
   font-weight: 600;
   text-align: center;
+  margin:0;
 }
 
 .feynman__subtitle {
-  margin-top: 70px;
+  margin: 70px 0 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
@@ -317,12 +317,14 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
+  margin: 0;
 }
 
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  margin: 0;
 }
 
 .footer__column-links { 
