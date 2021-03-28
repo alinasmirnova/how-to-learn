@@ -27,7 +27,7 @@
 .logo {
   width: 183px;
   z-index: 1;
-  background-size: cover;
+  object-fit: cover;
 } 
 
 .logo_place_header {
@@ -35,11 +35,9 @@
   top: 30px;
   left: 64px;
   height: 32px;
-  background-image: url(../images/logo_place_header.svg);  
 }
 
 .logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
   height: 35px;
 }
 
