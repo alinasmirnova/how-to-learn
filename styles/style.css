@@ -327,20 +327,23 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .footer__column-links { 
   margin: 20px 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 .footer__column-link {
-  display: flex;
   color: white;
-  text-decoration: none;
-  align-content: center;
+  text-decoration: none;  
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+  text-align: left center;
 }
 
 .footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
+  display: inline-block;
 }
