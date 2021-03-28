@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   color: #000000; 
 }
 
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 }
 
 .logo {
-  width: 183px;  
+  width: 183px;
   z-index: 1;
   background-size: cover;
 } 
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 }
 
 .logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);  
+  background-image: url(../images/logo_place_footer.svg);
   height: 35px;
 }
 
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   font-size: 60px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #000  
+  color: #000;
 }
 
 .section-title_theme_dark {
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
-  color: #000  
+  color: #000;
 }
 
 .section-subtitle_theme_dark {
@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .footer__column-link {
   color: white;
-  text-decoration: none;  
+  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
