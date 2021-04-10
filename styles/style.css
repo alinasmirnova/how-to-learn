@@ -1,22 +1,3 @@
-
-
-.logo {
-  width: 183px;
-  z-index: 1;
-  object-fit: cover;
-} 
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  height: 32px;
-}
-
-.logo_place_footer {
-  height: 35px;
-}
-
 .header__title {
   width: 730px;
   z-index: 2;
