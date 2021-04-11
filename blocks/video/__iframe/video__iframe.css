@@ -1,4 +1,9 @@
+.video__iframe {
+    z-index: 1;
+    position: relative;
+}
+
 .video__iframe:first-of-type {
     margin-right: 20px;
-    border: 0;
+    border: 0;    
 }
